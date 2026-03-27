@@ -6,7 +6,7 @@ const images = [
   'https://cdn.poehali.dev/projects/23aa774e-dae7-407b-b8e4-7ebfb31b464c/bucket/8898f47b-7c5b-48d3-b88c-a406fef974cc.jpg',
 ];
 
-const TIKTOK_URL = 'https://tiktok.com/@yourname';
+const TIKTOK_URL = 'https://www.tiktok.com/@glavstroy';
 
 export default function HeroSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
