@@ -134,7 +134,11 @@ export default function HeroSection() {
                   rel="noopener noreferrer"
                   className="group inline-flex items-center gap-3 rounded-2xl bg-white px-8 py-4 text-black shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-300 hover:shadow-[0_0_60px_rgba(255,255,255,0.35)] hover:scale-105 active:scale-100"
                 >
-                  <span className="text-xl">🎰</span>
+                  <img
+                    src="https://cdn.poehali.dev/projects/23aa774e-dae7-407b-b8e4-7ebfb31b464c/bucket/e77da452-5ebc-498d-84ad-3c57c605ad8b.jpg"
+                    alt="1win"
+                    className="h-7 w-7 rounded-md flex-shrink-0 object-cover"
+                  />
                   <span className="text-base font-semibold tracking-wide">Моё Казино</span>
                   <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
