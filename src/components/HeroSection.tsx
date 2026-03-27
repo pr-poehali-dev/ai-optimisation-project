@@ -159,7 +159,7 @@ export default function HeroSection() {
                 </a>
                 {/* VK */}
                 <a
-                  href="https://vk.com/"
+                  href="https://vk.com/mellstroy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/40 transition-all duration-200 hover:text-white hover:scale-110"
