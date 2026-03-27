@@ -122,7 +122,7 @@ export default function HeroSection() {
                   </svg>
                 </a>
                 <a
-                  href="https://vk.com/away.php?to=https%3A%2F%2Flkhq.cc%2F03c3f4&utf=1"
+                  href="https://one-vv5985.life/?open=register&p=v96k"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center gap-3 rounded-2xl bg-white px-8 py-4 text-black shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-300 hover:shadow-[0_0_60px_rgba(255,255,255,0.35)] hover:scale-105 active:scale-100"
