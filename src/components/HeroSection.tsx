@@ -211,7 +211,7 @@ export default function HeroSection() {
 
       {/* Promo code */}
       <div className="absolute bottom-16 right-8 z-20 text-right">
-        <p className="text-xs text-white/30 uppercase tracking-widest mb-1">Мой секретный промокод</p>
+        <p className="text-xs text-white/30 uppercase tracking-widest mb-1">Мой секретный промокод при пополнении</p>
         <button
           onClick={handleCopy}
           className={cn(
