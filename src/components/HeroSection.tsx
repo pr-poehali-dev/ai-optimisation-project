@@ -74,15 +74,13 @@ export default function HeroSection() {
               )}
             >
               <div className="space-y-2">
-                <p className="flex items-center gap-3 text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
-                  Mellstroy
-                  <svg className="h-8 w-8 flex-shrink-0 md:h-10 md:w-10" viewBox="0 0 24 24" fill="#1D9BF0" aria-label="Верифицирован">
-                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#1D9BF0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-                    <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                <div className="flex items-center gap-3">
+                  <span className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">Mellstroy</span>
+                  <svg className="h-9 w-9 flex-shrink-0 self-center md:h-11 md:w-11" viewBox="0 0 24 24" aria-label="Верифицирован">
                     <circle cx="12" cy="12" r="10" fill="#1D9BF0"/>
                     <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
                   </svg>
-                </p>
+                </div>
                 <p className="text-lg font-light text-white/60 md:text-xl">
                   Амбассадор · Контент-мейкер
                 </p>
