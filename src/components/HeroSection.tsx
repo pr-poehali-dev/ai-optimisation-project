@@ -2,10 +2,8 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-2.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-5.jpg',
+  'https://cdn.poehali.dev/projects/23aa774e-dae7-407b-b8e4-7ebfb31b464c/bucket/5771bdad-339a-41e7-8efa-f35eabcc5e78.jpg',
+  'https://cdn.poehali.dev/projects/23aa774e-dae7-407b-b8e4-7ebfb31b464c/bucket/8898f47b-7c5b-48d3-b88c-a406fef974cc.jpg',
 ];
 
 const TIKTOK_URL = 'https://tiktok.com/@yourname';
