@@ -135,7 +135,7 @@ export default function HeroSection() {
                 <div className="h-px w-8 bg-white/20" />
                 {/* Telegram */}
                 <a
-                  href="https://t.me/"
+                  href="https://t.me/tellstroytm"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/40 transition-all duration-200 hover:text-white hover:scale-110"
