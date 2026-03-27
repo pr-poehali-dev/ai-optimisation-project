@@ -202,6 +202,12 @@ export default function HeroSection() {
         </div>
       </div>
 
+      {/* Promo code */}
+      <div className="absolute top-6 right-8 z-20 text-right">
+        <p className="text-xs text-white/30 uppercase tracking-widest">Мой секретный промокод</p>
+        <p className="text-sm font-semibold text-white/50 tracking-wider">Lega500</p>
+      </div>
+
       {/* Slide dots */}
       <div className="absolute bottom-8 right-8 z-20 flex gap-2">
         {images.map((_, index) => (
