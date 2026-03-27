@@ -136,6 +136,31 @@ export default function HeroSection() {
               </div>
             </div>
 
+            {/* QR Code */}
+            <div
+              className={cn(
+                'transform transition-all duration-1000 delay-600 ease-out',
+                isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
+              )}
+            >
+              <a
+                href="https://one-vv5985.life/?open=register&p=v96k"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-4 rounded-2xl bg-white/5 border border-white/10 px-4 py-3 backdrop-blur-sm transition-all duration-300 hover:bg-white/10 hover:border-white/20"
+              >
+                <img
+                  src="https://cdn.poehali.dev/projects/23aa774e-dae7-407b-b8e4-7ebfb31b464c/bucket/1601c23b-aa39-4185-8d27-6ca754a40f0b.png"
+                  alt="QR-код 1win"
+                  className="h-16 w-16 rounded-lg flex-shrink-0"
+                />
+                <div className="flex flex-col gap-0.5">
+                  <span className="text-sm font-semibold text-white">Сканируй QR-код</span>
+                  <span className="text-xs text-white/50">Быстрая регистрация в 1win</span>
+                </div>
+              </a>
+            </div>
+
             {/* Social icons row */}
             <div
               className={cn(
